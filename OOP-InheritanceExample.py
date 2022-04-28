@@ -24,6 +24,8 @@ class HospitalDoctor(Doctor):
         self.staff_no = staff_no
         self.pager_no = pager_no
 
+class IntershipDoctor(Doctor):
+    pass 
 
 # define an object doctor 
 doctor1 = Doctor("David", "0900000000", "davidli@mail.mcu.edu.tw")
